@@ -14,6 +14,8 @@ export const LoadingImgStyle = {
     "pointerEvents": "none"
 }
 
+// Filter Styles
+
 export const SectionStyle = {
     "width": "80vw",
     "margin": "75px auto 100px"
@@ -36,4 +38,17 @@ export const MenuButtonStyle = {
     "fontSize": "22px",
     "fontWeight": "700",
     "padding": "4px 10px 6px"
-}          
+}
+
+export const GridStyle = {
+    "border": "1px solid #FFE807",
+    "borderTop": "none",
+    "borderBottom": "none",
+    "textAlign": "center"
+}
+
+export const PersonStyle = {
+    "color": "#fbfbfb",
+    "fontSize": "20px",
+    "fontFamily": "'Ubuntu', sans-serif"
+}

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { getPeople } from './Utilities';
 import Loading from './Loading';
-import { SectionStyle , MenuStyle , MenuButtonStyle } from './Styles';
+import { SectionStyle , MenuStyle , MenuButtonStyle, GridStyle, PersonStyle } from './Styles';
 import  StackGrid, { transitions, easings }from 'react-stack-grid';
 
 class App extends Component {
@@ -70,6 +70,7 @@ class App extends Component {
 				</div>
 				<div>
 					<StackGrid
+						style={GridStyle}
 						columnWidth={100}
 						gutterWidth={15}
 						gutterHeight={30}
@@ -83,7 +84,7 @@ class App extends Component {
 						leaved={transition.leaved}
 					>
 						{filteredPeople.map((names,key) => {
-							return <p key={key} className='person'>{names.name}</p>
+							return <p style={PersonStyle} key={key}>{names.name}</p>
 						})}
 					</StackGrid>
 				</div>
