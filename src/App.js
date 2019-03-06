@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { getPeople } from './Utilities';
 import Loading from './Loading';
+import { SectionStyle , MenuStyle , MenuButtonStyle } from './Styles';
 import  StackGrid, { transitions, easings }from 'react-stack-grid';
 
 class App extends Component {
@@ -44,9 +45,10 @@ class App extends Component {
 		const transition = transitions.scaleDown;
 		return (
 			isLoading === true ? <Loading/>
-			:<section>
-				<div>
+			:<section style={SectionStyle}>
+				<div style={MenuStyle}>
 					<button
+						style={MenuButtonStyle}
 						type="button"
 						onClick={() => this.reset()}
 						key="reset"
@@ -56,6 +58,7 @@ class App extends Component {
 					{genders.map(gender => {
 						return (
 							<button
+								style={MenuButtonStyle}
 								type="button"
 								onClick={() => this.compareBy(gender)}
 								key={gender}
