@@ -1,15 +1,16 @@
 {
   "main.css": "/sshrayber-filter-api/static/css/main.51cdba47.chunk.css",
-  "main.js": "/sshrayber-filter-api/static/js/main.8fc92cc1.chunk.js",
-  "main.js.map": "/sshrayber-filter-api/static/js/main.8fc92cc1.chunk.js.map",
+  "main.js": "/sshrayber-filter-api/static/js/main.af4ef25b.chunk.js",
+  "main.js.map": "/sshrayber-filter-api/static/js/main.af4ef25b.chunk.js.map",
   "runtime~main.js": "/sshrayber-filter-api/static/js/runtime~main.fc582017.js",
   "runtime~main.js.map": "/sshrayber-filter-api/static/js/runtime~main.fc582017.js.map",
-  "static/js/2.d0e84046.chunk.js": "/sshrayber-filter-api/static/js/2.d0e84046.chunk.js",
-  "static/js/2.d0e84046.chunk.js.map": "/sshrayber-filter-api/static/js/2.d0e84046.chunk.js.map",
+  "static/js/2.c5f84d97.chunk.js": "/sshrayber-filter-api/static/js/2.c5f84d97.chunk.js",
+  "static/js/2.c5f84d97.chunk.js.map": "/sshrayber-filter-api/static/js/2.c5f84d97.chunk.js.map",
   "index.html": "/sshrayber-filter-api/index.html",
-  "precache-manifest.232f3ee130026ce11d50d32ddbd2308e.js": "/sshrayber-filter-api/precache-manifest.232f3ee130026ce11d50d32ddbd2308e.js",
+  "precache-manifest.19d8d3d1adb0c1ff81bb0102eb8da06e.js": "/sshrayber-filter-api/precache-manifest.19d8d3d1adb0c1ff81bb0102eb8da06e.js",
   "service-worker.js": "/sshrayber-filter-api/service-worker.js",
   "static/css/main.51cdba47.chunk.css.map": "/sshrayber-filter-api/static/css/main.51cdba47.chunk.css.map",
   "static/media/index.css": "/sshrayber-filter-api/static/media/background.3745c3e5.jpg",
-  "static/media/loading.png": "/sshrayber-filter-api/static/media/loading.7686e6f6.png"
+  "static/media/loading.png": "/sshrayber-filter-api/static/media/loading.7686e6f6.png",
+  "static/media/logo.png": "/sshrayber-filter-api/static/media/logo.40e5b6b3.png"
 }

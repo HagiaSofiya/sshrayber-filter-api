@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sshrayber-filter-api/precache-manifest.232f3ee130026ce11d50d32ddbd2308e.js"
+  "/sshrayber-filter-api/precache-manifest.19d8d3d1adb0c1ff81bb0102eb8da06e.js"
 );
 
 workbox.clientsClaim();
