@@ -1,3 +1,5 @@
+// Loading Styles
+
 const LoadingStyle = {
     "alignItems": "center",
     "display": "flex",
@@ -6,10 +8,10 @@ const LoadingStyle = {
     "height": "100vh"
 }
 
-const LoadingImg = {
+const LoadingImgStyle = {
     "animation": "loading-spin infinite 20s linear",
     "height": "40vmin",
     "pointerEvents": "none"
 }
 
-export { LoadingStyle, LoadingImg }
+export { LoadingStyle, LoadingImgStyle }
