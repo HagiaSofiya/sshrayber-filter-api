@@ -26,7 +26,7 @@ export const LogoStyle = {
 // Filter Styles
 
 export const SectionStyle = {
-    "width": "50vw",
+    "width": "80vw",
     "margin": "50px auto 100px"
 }
 
