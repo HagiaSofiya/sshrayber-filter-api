@@ -17,6 +17,7 @@ src
 ├── App.test.scss
 ├── index.js
 ├── Loading.js
+├── Logo.js
 ├── serviceWorker.js
 ├── Styles.js
 ├── Utilities.js
@@ -24,6 +25,7 @@ src
 └── misc
     ├──  background.jpg
     ├──  index.css
+    ├──  logo.png
     ├──  loading.png
     └──  reset.css
 

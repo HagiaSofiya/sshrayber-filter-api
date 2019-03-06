@@ -14,18 +14,28 @@ export const LoadingImgStyle = {
     "pointerEvents": "none"
 }
 
+
+//Logo
+
+export const LogoStyle = {
+    "display": "block",
+    "margin": "0 auto",
+    "width": "50%"
+}
+
 // Filter Styles
 
 export const SectionStyle = {
-    "width": "80vw",
-    "margin": "75px auto 100px"
+    "width": "50vw",
+    "margin": "50px auto 100px"
 }
 
 export const MenuStyle = {
     "display": "flex",
     "flexWrap": "wrap",
     "justifyContent": "space-between",
-    "marginBottom": "50px"
+    "marginBottom": "50px",
+    "marginTop": "25px"
 }
 
 export const MenuButtonStyle = {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { getPeople } from './Utilities';
 import Loading from './Loading';
+import Logo from './Logo';
 import { SectionStyle , MenuStyle , MenuButtonStyle, GridStyle, PersonStyle } from './Styles';
 import  StackGrid, { transitions, easings }from 'react-stack-grid';
 
@@ -46,6 +47,7 @@ class App extends Component {
 		return (
 			isLoading === true ? <Loading/>
 			:<section style={SectionStyle}>
+				<Logo/>
 				<div style={MenuStyle}>
 					<button
 						style={MenuButtonStyle}
